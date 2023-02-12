@@ -1,0 +1,100 @@
+body{
+    background-color: white;
+}
+@media screen and (min-width: 968px){
+.center-box-1{
+    position: absolute;
+    padding: 15px 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 24rem;
+    height: 32rem;
+    text-align: center;
+    color: white;
+    background-color:  rgb(17, 113, 17);
+}
+#panel svg{width: 20%;height: 20%;color:white;padding-top: 20;}
+.center-box-2{
+    position: absolute;
+    padding: 15px 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid  rgb(17, 113, 17);
+    border-radius: 40px;
+    width: 380px;
+    height: 579px;
+    text-align: center;
+    color: white;
+    background-color: rgb(17, 113, 17);
+}
+.center-box-3{
+    position: absolute;
+    padding: 15px 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 24rem;
+    height: 32rem;
+    text-align: center;
+    color: white;
+    background-color:  rgb(17, 113, 17);
+}
+h1{
+    margin: 33px;
+}
+.text-field{
+    width: 290;
+    padding: 10px 20px;
+    margin: 14px 0 ;
+    border: 2px solid  rgb(17, 113, 17);
+    border-radius: 10px;
+    font-size: 12pt;
+    color: black;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
+.btn-style{
+    margin: 12px;
+    padding: 9px 20px;
+    border: 1px solid  rgb(17, 113, 17);
+    border-radius: 18px;
+    color: white;
+    background-color: limegreen;
+    width: 100px;
+    font-weight : bold;
+    font-size: 11pt;
+}
+.btn-style:hover{
+    background-color: white;
+    color:  rgb(17, 113, 17);
+}
+.an-btn{
+    margin-top: 5px;
+    border: 0;
+    background-color:  rgb(17, 113, 17);
+    color: white;
+    font-size: 11pt;
+}
+/* .alert{
+    text-align: center;
+    padding:10px;
+    background:#79c879;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+} */
+#register-div{
+    display: none;
+}
+#admin-div{
+    display: none;
+}
+}

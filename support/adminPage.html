@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Smart Voting Website</title>
+        <link rel="stylesheet" href="css3.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <h2>Smart Voting Website - Admin Page</h2>
+        </div>
+        <div>
+            <button class="btn-style" id='log-out-btn'>Log out</button>
+        </div>
+        <div>
+            Total number of enrolled voters : <span id="enrolled-voters"></span><br>
+            Total number of votes polled : <span id="votes_polled"></span><br>
+            Voter Turn Out Percentage : <span id="percentage_turnout"></span>&nbsp;%
+        </div>
+        <div>
+            <button class="stop-session" id='stop-session'>Stop Session</button>
+        </div>
+        <canvas id="pieChart"></canvas>
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+        <!-- <script src="https://www.gstatic.com/firebasejs/14.0.0/firebase-admin.js"></script> -->
+        <!-- <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script> -->
+        <script type="module" src="sc3.js"></script>
+    </body>
+</html>
